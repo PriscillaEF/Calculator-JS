@@ -25,18 +25,20 @@ body {
 }
 
 
-.calculator_display>input {
+.calculator_display {
     width: 100%;
     box-sizing: border-box;
     padding: 30px;
     text-align: right;
     border: 1.5px solid #efefef;
+    height: 35%;
+    margin-bottom: 1em;
 
 }
 
-.calculator_display>input:active,
-.calculator_display>input:hover,
-.calculator_display>input:focus {
+.calculator_display:active,
+.calculator_display:hover,
+.calculator_display:focus {
     border: 1.5px solid #efefef;
     outline: none;
     cursor: pointer;
@@ -118,8 +120,10 @@ button {
     outline: none;
     border-radius: 1px inset;
     background-color: hsl(0deg 0% 86.67%);
+    cursor: pointer;
 }
 
-.btn {
+.btn,
+.btns {
     background-color: transparent;
 }
